@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
     unzip \
     gawk \
     util-linux mkisofs \
-    python2-dev	python2-dev \
+    python2.7-dev	python2.7-dev \
     python3-dev python3 \
     subversion \
     libz-dev \
