@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+ENV DEBIAN_FRONTEND noninteractive    # export DEBIAN_FRONTEND="noninteractive"
+
 # Install dependencies
 RUN apt-get update && apt-get install -y \
     gcc-7 g++-7 gcc-7-multilib g++-7-multilib \
