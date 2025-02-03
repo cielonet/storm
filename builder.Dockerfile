@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM i386/ubuntu:18.04
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
