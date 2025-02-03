@@ -1,8 +1,8 @@
-FROM i386/ubuntu:18.04
+FROM ubuntu:18.04
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
-    gcc-7 g++-7 gcc-7-multilib \
+    gcc-7 g++-7 gcc-7-multilib g++-7-multilib \
     wget \
     git \
     binutils \
